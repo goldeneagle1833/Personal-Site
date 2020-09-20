@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(61, 61, 61, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+}
+
+.menu li {
+  display: inline;
+}
+.button {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: -0.2px;
+  word-spacing: 2px;
+  color:  #b1b4ba;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+/* 
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 10px 7px 5px rgba(0, 0, 0, 0.32); */
+}
+
+.button:hover {
+  background-color: aliceblue;
+}

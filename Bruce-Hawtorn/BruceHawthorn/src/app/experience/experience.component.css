@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 60vw;
+    font-family: Georgia, serif;
+  }
+  .geo {
+    
+  }
+  .king {
+  }
+  .hike {
+  }
+  .operator {
+  }
+  
