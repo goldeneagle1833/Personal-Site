@@ -1,0 +1,30 @@
+.picture{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+
+}
+.picture:hover{
+    cursor: pointer;
+}
+.text{
+    color: white;
+}
+.pictures{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 15px;
+}
+body{
+    text-align: center;
+}
+.pic{
+    margin: auto;
+    margin-top: 20px;
+}

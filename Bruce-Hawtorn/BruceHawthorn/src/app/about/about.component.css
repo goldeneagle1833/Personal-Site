@@ -1,15 +1,47 @@
-body {
+body{
   margin: 0;
   padding: 0;
- margin: 0;
-  padding: 0;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgb(83, 83, 83) 100%
-  );
+  font-family: Georgia, serif;
 }
-.div{
-    
+
+.dis{
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  background-color: aqua;
+}
+.img{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.text{
+  max-width: 50%;
+  background-color: brown;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+.timeline{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 50vh;
+  background-color: blue;
+}
+.bar{
+
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.skills{
+  height: 25vh;
+}
+.time{
+  
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

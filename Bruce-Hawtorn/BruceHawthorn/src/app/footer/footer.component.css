@@ -7,7 +7,7 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     background: rgb(255, 255, 255);
     background: radial-gradient(
       circle,
@@ -31,12 +31,14 @@ body {
     font-style: italic;
     font-variant: small-caps;
     text-transform: capitalize;
+    padding-left: 2vw;
+    padding-right: 2vw;
   /* 
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
       0 0 10px rgba(255, 255, 255, 0.5), 10px 7px 5px rgba(0, 0, 0, 0.32); */
   }
   
   .button:hover {
-    background-color: aliceblue;
+    color: white;
   }
   

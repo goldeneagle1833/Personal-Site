@@ -6,7 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="div">
+ <div class="dis">
+    <div class="img">
+        <img src="../../assets/IMG_0241.jpg" alt="Pic of me" width="200px" class="pic"/>
+      </div>
+      <div class="text">
+        <h2>
+            From becoming a United States Marine to hiking 2,192 miles on the
+            application trail in 2019, there is very little that will prevent me
+            from accomplishing the task at hand.
+          </h2>
+      </div>
+ </div>
+ <div class="timeline" >
+     <div class="time" *ngFor="let time of times">
+        <p>{{time.date}} {{time.job}}</p>
+     </div>
+     
+ </div>
+ <div class="skills">
+
+ </div>
+</body>
+</html>
+   <!-- <div class="div">
         <p>Bruce Hawthorn
             Goldeneagle1833@gmail.com
             (740) 438-8506
@@ -32,16 +55,7 @@
             ●	Corporals Course in the Marine Corp	●	Attended Central Ohio Technical College
             ●	Attending Perscholas Software Engineering Course	●	
             </p>
-            <div class="img">
-                <img src="../../assets/IMG_0241.jpg" alt="Pic of me" width="250px" class="pic"/>
-              </div>
-            <h1>
-                From becoming a United States Marine to hiking 2,192 miles on the
-                application trail in 2019, there is very little that will prevent me
-                from accomplishing the task at hand.
-              </h1>
-    </div>
-</body>
-</html>
-
+            
+            
+    </div> -->
 

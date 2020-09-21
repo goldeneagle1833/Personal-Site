@@ -8,6 +8,7 @@ import { ExperienceComponent } from "./experience/experience.component";
 import { HobbysComponent } from "./hobbys/hobbys.component";
 import { ReferancesComponent } from "./referances/referances.component";
 import { LandingPageComponent } from "./landing-page/landing-page.component";
+import { PicturesComponent } from "./pictures/pictures.component";
 
 
 
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: "references",
     component: ReferancesComponent
+  },
+  {
+    path: "Pictures",
+    component: PicturesComponent
   }
 ];
 

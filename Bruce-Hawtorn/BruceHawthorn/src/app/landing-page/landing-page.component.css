@@ -1,11 +1,8 @@
-
-
 .backgroundImg {
   height: 100vh;
   background-image: url(../../assets/20190630_181140.jpg);
   background-size: cover;
   text-align: center;
-
 }
 .welcome {
   font-family: Georgia, serif;
@@ -20,9 +17,8 @@
   text-transform: capitalize;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
     0 0 10px rgba(255, 255, 255, 0.5), 10px 7px 5px rgba(0, 0, 0, 0.32);
-margin: 0;
-margin-bottom: 2vh;
-
+  margin: 0;
+  margin-bottom: 2vh;
 }
 .quote {
   font-family: Georgia, serif;
@@ -53,12 +49,9 @@ margin-bottom: 2vh;
     0 0 10px rgba(255, 255, 255, 0.5), 10px 7px 5px rgba(0, 0, 0, 0.32);
   padding: 0;
   margin: 0;
-
 }
-.about{
+.about {
   margin-top: 30vh;
   display: flex;
   justify-content: center;
-
 }
-
